@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.benchmarks/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv
+venv/
+.venv*/
+virtualenv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.jsonl
+multi_agent_observability_opentelemetry.egg-info/

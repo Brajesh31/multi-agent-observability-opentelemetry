@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-agent-observability-opentelemetry"
+version = "0.1.0"
+description = "Reference multi-agent system demonstrating OpenTelemetry integration patterns for enterprise AI agents"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.4.0",
+    "opentelemetry-api>=1.30.0",
+    "opentelemetry-sdk>=1.30.0",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.30.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

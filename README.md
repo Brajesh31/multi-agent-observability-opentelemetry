@@ -95,4 +95,4 @@ MIT — see [LICENSE](LICENSE).
 
 PRs welcome. Keep contributions focused on improving the instrumentation patterns or adding new observability problems to the catalog.
 
-Last updated: 2026-10-22 22:10 UTC
+Last updated: 2026-10-23 01:18 UTC
